@@ -1,0 +1,219 @@
+/*
+Theme Name: Skin
+Theme URI: http://thisisrobv.com
+Description: A simple parent theme for Bones that adds some basic style.
+Version: 0.1
+Template: bones
+Author: Rob V
+Author URI: http://thisisrobv.com
+Tags: Brilliance, Modest
+*/
+
+@import url('../bones/style.css');
+
+a, a:link, a:active, a:visited {
+	color: #000;
+}
+
+a:hover {
+	color: #999;
+}
+
+body {
+	background-color: #f7f7f7;
+	font-family: Helvetica, Arial, Geneva, sans-serif;
+}
+
+#container {
+	width: 980px;
+	margin: 0 auto;
+}
+
+#content_container {
+	margin-bottom: 40px;
+}
+
+/* @group HEADER */
+
+#header {
+	padding: 20px 0;
+}
+
+#header h1 {
+	font-size: 45px;
+}
+
+#header h1 a, #header h1 a:link, #header h1 a:active, #header h1 a:visited {
+	text-decoration: none;
+}
+
+#header h2 {
+	font-size: 20px;
+}
+
+#header #navigation {
+	position: absolute;
+	width: 540px;
+	top: 0;
+	margin: 40px 0 0 440px;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+#header #navigation ul {
+	float: right;
+}
+
+#header #navigation ul li {
+	float: left;
+	margin-left: 5px;
+}
+
+#header #navigation ul li a, #header #navigation ul li a:link, #header #navigation ul li a:active, #header #navigation ul li a:visited {
+	padding: 10px;
+	color: #fff;
+	background-color: #000;
+	text-decoration: none;
+}
+
+#header #navigation ul li a:hover {
+	background-color: #aaa;
+}
+
+/* @end */
+
+#content {
+	background-color: #fff;
+	padding: 20px;
+	float: left;
+	width: 660px;
+	-webkit-box-shadow:0px 0px 10px #ccc;
+	-moz-box-shadow:0px 0px 10px #ccc;
+	box-shadow:0px 0px 10px #ccc;
+}
+
+.post {
+	border-bottom: 1px solid #eee;
+	padding: 0 0 25px;
+	margin-bottom: 25px;
+}
+
+.post h2.post_title, .page h2.post_title {
+	font-size: 24px;
+	margin: 0;
+}
+
+.post .post_body, .page .post_body {
+	font-size: 12px;
+	line-height: 20px;
+	margin: 15px 0;
+}
+
+.post .post_meta {
+	margin: 5px 0 0;
+	font-size: 11px;
+}
+
+.post_meta_footer {
+	font-size: 12px;
+}
+
+.post h1, .page h1 {
+	font-size: 24px;
+}
+
+.post h2, .page h2 {
+	font-size: 20px;
+}
+
+.post h3, .page h3 {
+	font-size: 18px;
+}
+
+.post h4, .page h4 {
+	font-size: 14px;
+}
+
+.post ul, .page ul {
+	margin-left: 25px;
+	list-style-type: disc;
+}
+
+.post ol, .page ol {
+	margin-left: 25px;
+	list-style-type: decimal;
+}
+
+.post p, .post ul, .post ol, .post h1, .post h2, .post h3, .post h4, .page p, .page ul, .page ol, .page h1, .page h2, .page h3, .page h4 {
+	margin-bottom: 15px;
+}
+
+#respond {
+	border-top: 1px solid #eee;
+	margin-top: 20px;
+	padding-top: 25px;
+}
+
+ol.commentlist, #respond {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+ol.commentlist li {
+	margin-bottom: 15px;
+}
+
+.commentmetadata {
+	font-size: 11px;
+	margin-bottom: 5px;
+}
+
+.commentmetadata a, .commentmetadata a:link, .commentmetadata a:active, .commentmetadata a:visited {
+	color: #777;
+}
+
+.commentmetadata a:hover {
+	color: #000;
+}
+
+.comment-author {
+	font-weight: bold;
+}
+
+.comment-author a, .comment-author a:link, .comment-author a:active, .comment-author a:visited {
+	font-weight: bold;
+}
+
+.edit {
+	float: left;
+}
+
+.tags {
+	float: right;
+}
+
+#content_right_widgets {
+	width: 260px;
+	float: right;
+	font-size: 12px;
+}
+
+.widget_container {
+	background-color: #fff;
+	margin-bottom: 15px;
+	-webkit-box-shadow:0px 0px 10px #ccc;
+	-moz-box-shadow:0px 0px 10px #ccc;
+	box-shadow:0px 0px 10px #ccc;
+}
+
+.widget_container h3.widget_title {
+	font-size: 15px;
+	background-color: #000;
+	color: #fff;
+	padding: 10px;
+}
+
+.widget_content {
+	padding: 15px;
+	line-height: 20px;
+}
